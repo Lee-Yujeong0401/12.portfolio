@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mainpage {
+    width: 80vw;
+    height: 100vh;
+    padding-top: 120px;
+    display: flex;
+    
+    
+}
+
+#m-title {
+    width: 300px;
+    height: 10%;
+    font-size: 50px;
+}
+
+#m-title p {
+    padding-top: 340px;
+    font-size: 20px;
+}
+
+#s-title {
+    width: 10%;
+    font-size: 50px;
+}
+
+
+
+/* 자기소개 */
+
+
+.introduce {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcyan;
+    
+}
+
+.introduce h1 {
+    padding-top: 160px;
+    padding-left: 350px;
+    padding-bottom: 20px;
+    /* font-size: 50px; */
+    font-size: 2.5em;
+    letter-spacing: -1;
+}
+
+#img-inv {
+    width: 260px;
+    height: 420px;
+    float: left;
+    padding-left: 350px;
+    padding-top: 100px;
+    
+}
+
+#img-inv img{
+    background-color: black;
+}
+
+#inv-text {
+    padding-left: 400px;
+}
+
+/* 작품소개 */
+
+.worklist {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+#explan {
+    width: 500px;
+    height: 100%;
+    background-color: gray;
+    float: left;
+
+}
+
+.img-d {
+    width: 700px;
+    height: 550px;
+
+    padding-left: 350px;
+    padding-top: 200px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+
+    border: solid red 1px;
+    background-image: url(./imgs/일진머티리얼목업.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+.text {
+    width: 300px;
+    height: 300px;
+    padding-top: 250px;
+}
+
+.text p {
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.text h1 {
+    font-size: 27px;
+}
+
+.graphic-graph {
+    width: 400px;
+    height: 180px;
+    border: red 1px solid;
+    float: left;
+    background: url(./imgs/graph.png);
+}
